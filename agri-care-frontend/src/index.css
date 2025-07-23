@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  cursor: none;
+}
+
+/* Blur only the background content */
+body.blur-background .blur-target {
+  filter: blur(4px);
+  transition: filter 0.3s ease-in-out;
+  pointer-events: none; 
+}
+

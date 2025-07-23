@@ -1,0 +1,35 @@
+# Node modules
+frontend/node_modules/
+.vite/
+
+# Build files
+dist/
+build/
+
+# Logs and temp
+*.log
+*.tmp
+*.cache
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.env
+venv/
+*.egg-info/
+dist/
+.vscode/
+.DS_Store
+PlantVillage/
+uploads/
+
+# Flask uploads
+uploads/
+
+# Environment secrets
+.env
+
+
